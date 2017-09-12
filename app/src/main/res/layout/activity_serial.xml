@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.creativeclan.test2.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="Unique id"/>
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:id="@+id/etitemcode"
+        android:layout_width="348dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="itemcode"
+        android:inputType="textPersonName"
+        android:layout_marginTop="80dp" />
+
+    <EditText
+        android:id="@+id/etroomno"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="room no"
+        android:inputType="textPersonName"
+        android:layout_marginTop="120dp" />
+    <EditText
+        android:id="@+id/etbuilding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="building"
+        android:inputType="textPersonName"
+        android:layout_marginTop="160dp" />
+    <EditText
+        android:id="@+id/etsectionno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="sectionno"
+        android:inputType="textPersonName"
+        android:layout_marginTop="200dp" />
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Asset user name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="240dp" />
+    <EditText
+        android:id="@+id/etassetcost"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="Asset Cost"
+        android:inputType="textPersonName"
+        android:layout_marginTop="280dp" />
+    <EditText
+        android:id="@+id/etageing"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="Ageing"
+        android:inputType="textPersonName"
+        android:layout_marginTop="320dp" />
+    <EditText
+        android:id="@+id/etdateofpurchase"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="dateofpurchase"
+        android:inputType="textPersonName"
+        android:layout_marginTop="360dp" />
+    <EditText
+        android:id="@+id/etsupplier"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="Name of supplier"
+        android:inputType="textPersonName"
+        android:layout_marginTop="400dp" />
+
+    <Button
+        android:id="@+id/etRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="440dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:ems="10"
+        android:layout_alignParentTop="true">
+
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonSend"
+        style="?borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:text="Send"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

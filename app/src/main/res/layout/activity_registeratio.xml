@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash1"
+    tools:context="com.creativeclan.test2.RegisteratioActivity">
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/etitemcode"
+        android:layout_width="348dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="itemcode"
+        android:inputType="textPersonName"
+        android:layout_marginTop="60dp" />
+
+    <EditText
+        android:id="@+id/etroomno"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="room no"
+        android:inputType="textPersonName"
+        android:layout_marginTop="100dp" />
+    <EditText
+        android:id="@+id/etbuilding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="building"
+        android:inputType="textPersonName"
+        android:layout_marginTop="140dp" />
+    <EditText
+        android:id="@+id/etsectionno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="sectionno"
+        android:inputType="textPersonName"
+        android:layout_marginTop="180dp" />
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Asset user name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="220dp" />
+    <EditText
+        android:id="@+id/etassetcost"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="Asset Cost"
+        android:inputType="textPersonName"
+        android:layout_marginTop="260dp" />
+    <EditText
+        android:id="@+id/etageing"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="Ageing"
+        android:inputType="textPersonName"
+        android:layout_marginTop="300dp" />
+    <EditText
+        android:id="@+id/etdateofpurchase"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="dateofpurchase"
+        android:inputType="textPersonName"
+        android:layout_marginTop="340dp" />
+    <EditText
+        android:id="@+id/etsupplier"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="Name of supplier"
+        android:inputType="textPersonName"
+        android:layout_marginTop="380dp" />
+    <EditText
+        android:id="@+id/etid"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="unique id"
+        android:inputType="textPersonName"
+        android:layout_marginTop="420dp" />
+
+    <Button
+        android:id="@+id/etRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="460dp" />
+
+
+</RelativeLayout>
